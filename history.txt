@@ -1,0 +1,35 @@
+    1  wsl --update
+    2  wsl --list --verbose
+    3  lsb_release -a
+    4  hostnamectl
+    5  cat > Pets
+    6  cat > Pack_animals
+    7  cat Pets Pack_animals > Combined_animals
+    8  cat Combined_animals
+    9  mv Combined_animals Human_friends
+   10  cat Human_friends
+   11  mkdir Animals
+   12  mv Human_friends Animals/
+   13  ls Animals/
+   14  wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+   15  sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+   16  wget https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
+   17  sudo dpkg -i mysql-apt-config_0.8.15-1_all.deb
+   18  sudo apt update
+   19  sudo apt install mysql-server
+   20  sudo systemctl status mysql
+   21  mysql -u root -p
+   22  sudo mysql
+   23  mysql -u root -p
+   24  sudo systemctl status mysql
+   25  mysql -u root -p
+   26  dpkg -l | grep package-name
+   27  sudo dpkg -i package.deb
+   28  find ~ -name "*.deb"
+   29  sudo dpkg -r mysql-apt-config_0.8.22-1_all
+   30  dpkg -l | grep mysql
+   31  sudo dpkg -r mysql-apt-config
+   32  dpkg -l | grep mysql-apt-config
+   33  sudo dpkg --purge mysql-apt-config
+   34  dpkg -l | grep mysql-apt-config
+   35  history > history.txt
